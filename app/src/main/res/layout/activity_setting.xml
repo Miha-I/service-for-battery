@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:padding="15dp"
+        style="@style/baseContainer" >
+
+        <TextView
+            style="@style/baseTextSize.textTitleNotificationSettings" />
+
+        <LinearLayout
+            style="@style/baseLine" >
+
+            <TextView
+                style="@style/textTitle"
+                android:text="@string/text_setting_sound" />
+
+            <CheckBox
+                android:id="@id/id_checkBox_sound"
+                style="@style/baseStyleContent"
+                android:onClick="onClickListener" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/baseLine" >
+
+            <TextView
+                style="@style/textTitle"
+                android:text="@string/text_setting_vibration" />
+
+            <CheckBox
+                android:id="@id/id_checkBox_vibration"
+                android:onClick="onClickListener"
+                style="@style/baseStyleContent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/baseContainer" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_setting_time" />
+
+            <LinearLayout
+                style="@style/baseStyleParent" >
+
+                <TextView
+                    style="@style/textTitle"
+                    android:text="@string/text_setting_time_start" />
+
+                <TextView
+                    android:id="@id/id_night_time_in"
+                    android:onClick="onClickListener"
+                    android:layout_gravity="center_horizontal"
+                    android:minEms="2"
+                    style="@style/baseStyleContent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/baseStyleParent" >
+
+                <TextView
+                    style="@style/textTitle"
+                    android:text="@string/text_setting_time_end" />
+
+                <TextView
+                    android:id="@id/id_night_time_to"
+                    android:onClick="onClickListener"
+                    android:gravity="center_horizontal"
+                    android:minEms="2"
+                    style="@style/baseStyleContent" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            style="@style/baseTextSize.textTitleLogicSettings" />
+
+        <LinearLayout
+            style="@style/baseContainer" >
+
+            <TextView
+                android:text="@string/text_setting_low_battery_level"
+                style="@style/textTitleLevel" />
+
+            <LinearLayout
+                style="@style/baseStyleParent" >
+
+                <TextView
+                    style="@style/baseStyleContent"
+                    android:text="@string/text_setting_low_battery_level_start" />
+
+                <TextView
+                    android:id="@id/id_text_low_battery_level"
+                    style="@style/baseStyleContent" />
+
+                <SeekBar
+                    android:id="@id/id_seekBar_low_battery_level"
+                    style="@style/baseStyleParent" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/baseLine" >
+
+            <TextView
+                android:text="@string/text_setting_show_warning_dialog"
+                android:layout_gravity="fill_horizontal"
+                style="@style/textTitle" />
+
+            <CheckBox
+                android:id="@id/id_checkBox_show_warningDialog"
+                android:onClick="onClickListener"
+                style="@style/baseStyleContent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/baseLine" >
+
+            <TextView
+                android:text="@string/text_setting_decrease_brightness"
+                android:layout_gravity="fill_horizontal"
+                style="@style/textTitle" />
+
+            <CheckBox
+                android:id="@id/id_checkBox_decrease_brightness"
+                android:onClick="onClickListener"
+                style="@style/baseStyleContent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

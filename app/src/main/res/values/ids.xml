@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="id_warning_textView" type="id"/>
+    <item name="id_menu_item_setting" type="id"/>
+    <item name="id_menu_item_exit" type="id"/>
+    
+    <item name="id_checkBox_sound" type="id"/>
+    <item name="id_checkBox_vibration" type="id"/>
+    <item name="id_night_time_in" type="id"/>
+    <item name="id_night_time_to" type="id"/>
+    <item name="id_text_low_battery_level" type="id"/>
+    <item name="id_seekBar_low_battery_level" type="id"/>
+    <item name="id_checkBox_show_warningDialog" type="id"/>
+    <item name="id_checkBox_decrease_brightness" type="id"/>
+
+</resources>

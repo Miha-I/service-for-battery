@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Монитор батареи</string>
+
+    <string name="menu_item_setting">Настройки</string>
+    <string name="menu_item_exit">Выход</string>
+
+    <string name="monitor_enable">Монитор батареи запущен</string>
+    <string name="monitor_disable">Монитор батареи остановлен</string>
+    <string name="monitor_notifications_disabled">Уведомления монитора отключены</string>
+
+    <string name="title_warning_activity">Предупреждение</string>
+
+
+    <string name="notification_title">Информация о батарее</string>
+    <string name="notification_text_batteryCharging">Питание подключено</string>
+    <string name="notification_text_batteryChargingFull">Полностью заряжена</string>
+    <string name="notification_text_batteryOkay">Уровень заряда</string>
+    <string name="notification_text_batteryLow">Почти разряжена</string>
+    <string name="notification_text_battery_undefined">Информация не доступна</string>
+
+    <string name="btn_text_start_service">Запустить монитор батареи</string>
+    <string name="btn_text_stop_service">Остановить монитор батареи</string>
+
+    <string name="warning_activity_text">Батарея почти разряжена</string>
+
+    <string name="title_alerts_section">Раздел Оповещения:</string>
+    <string name="title_logic_section">Раздел Логика</string>
+    <string name="text_setting_sound">Звук</string>
+    <string name="text_setting_vibration">Вибрация</string>
+    <string name="text_setting_time">Ночное время:</string>
+    <string name="text_setting_time_start">начало</string>
+    <string name="text_setting_time_end">конец</string>
+    <string name="text_setting_low_battery_level">Уровень разряженной батареи:</string>
+    <string name="text_setting_low_battery_level_start">от 0% до </string>
+    <string name="text_setting_show_warning_dialog">Показывать предупреждение о разряженной батареи</string>
+    <string name="text_setting_decrease_brightness">Уменьшение яркости в состоянии разряженной батареи</string>
+</resources>
